@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Guifos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/home_theme1.css" id="style2">
+</head>
+
+<body>
+    <header>
+        <p>¡Bienvenidos/as a Guifos.como! ----- Donde los gifs están.////// Número de visitas: 12.765.803</p>
+
+    </header>
+    <div class="inicio">
+        <a href="../index.html"> <img src="../images/gifOF_logo.png" alt="Logo gif.OS"></a>
+        <div class="botones">
+            <button class="botonGuifos hov" onclick="crearMguifos()">Crear Guifos</button>
+            <div class="dropdown">
+                <button onclick="mostrarMenu()" class="drop-button hov">Elegir tema </button>
+                <button onclick="mostrarMenu()" class="flecha hov"> <img src="../images/dropdown.svg" alt="Flecha"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <button class="day" onclick="cambiarMClaro()"><span>S</span>ailor Day</button>
+                    <button class="night" onclick="cambiarMOscuro()"><span>S</span>ailor Night</button>
+                </div>
+            </div>
+            <a href=""> <span>M</span>is Guifos</a>
+        </div>
+
+    </div>
+    <div class="barra ">
+        <p class="titulo "> Mis guifos</p>
+    </div>
+    <div id="misGuifos"></div>
+
+    <script src="../js/pageCrear.js"></script>
+</body>
+
+</html>

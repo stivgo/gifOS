@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gif.OS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/home_theme1.css" id="style">
+</head>
+
+<body>
+
+    <header>
+        <p>¡Bienvenidos/as a Guifos.como! ----- Donde los gifs están.////// Número de visitas: 12.765.803 </p>
+
+    </header>
+    <main>
+
+
+        <div class="inicio">
+            <a href="" class="logo"></a>
+            <div class="botones">
+                <button class="botonGuifos hov" onclick="crearguifos()">Crear Guifos</button>
+
+                <div class="dropdown">
+                    <button onclick="mostrarMenu()" class="drop-button hov">Elegir tema </button>
+                    <button onclick="mostrarMenu()" class="flecha hov"> <img src="./images/dropdown.svg" alt="Flecha"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <button class="day" onclick="cambiarClaro()"><span>S</span>ailor Day</button>
+                        <button class="night" onclick="cambiarOscuro()"><span>S</span>ailor Night</button>
+                    </div>
+                </div>
+                <a href="./pages/misguifos.html"> <span>M</span>is Guifos</a>
+            </div>
+
+        </div>
+        <div class="buscar">
+            <label for="fbuscar">Buscar</label>
+            <input onkeyup="buscar(this)" type="text" name="fbuscar" id="fbuscar" placeholder="Busca gifs, hashtags, temas, busca lo que quieras...">
+            <button id="bBuscar">  Buscar</button>
+
+        </div>
+
+
+
+        <div class="auto" id="buscar">
+            <div id="resultado" class="resultado"></div>
+
+        </div>
+
+        <div id="historial" class="historial"></div>
+
+        <div id="busqueda"></div>
+
+        <div id="gifBusqueda"></div>
+
+
+        <div class="barra">
+            <p> Hoy te sugerimos: </p>
+        </div>
+
+        <div class="gifsugerencias" id="sugerencia">
+
+        </div>
+
+        <div class="barra">
+            <p> Tendencias: </p>
+        </div>
+        <div class="tendencias" id="tendencia"></div>
+    </main>
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

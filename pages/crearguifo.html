@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Guifo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/crear_theme2.css" id="style3">
+</head>
+
+<body>
+    <header>
+        <p>¡Bienvenidos/as a Guifos.como! ----- Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </header>
+    <div class="inicio">
+        <button class="flecha" onclick="volveraInicio()"><img src="../images/arrow.svg" alt="flecha retroceder"></button>
+        <div class="logo"> </div>
+
+    </div>
+
+    <div class="crear" id="crear">
+        <p class="titulo"> Crear Guifos</p>
+        <div class="principal">
+            <div class="lventana">
+                <img src="../images/window_img.png" alt="logo ventana">
+            </div>
+            <div class="texto">
+                <h2>Aquí podrás crear tus propios guifos</h2><br>
+                <p>Crear tu <span> guifo</span> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son: <br><br>
+                    <strong>1)</strong> Dar permisos de acceso a la cámara (sólo por el tiempo de uso) <br><br>
+                    <strong>2)</strong> Capturar tu momento guifo <br><br>
+                    <strong>3)</strong> Revisar el momento <br><br>
+                    <strong>4)</strong> Listo para subir y compartir! <br><br> ¿Quieres comenzar a crear tu <span> guifo</span> ahora?</p>
+            </div>
+        </div>
+        <div class="botones">
+            <button class="blanco" onclick="volveraInicio()">Cancelar</button>
+            <button class="rosado" onclick="comenzar()">Comenzar</button>
+        </div>
+    </div>
+
+    <div class="check crear " id="check">
+        <div class="superior">
+            <p class="titulo"> Un Chequeo Antes De Empezar </p>
+            <a href="../index.html"></a>
+        </div>
+        <div class="video">
+            <div class="videoCon"></div>
+            <div class="inferior">
+                <div class="vista">
+                    <div class="tiempo"></div>
+                    <div class="reproduccion botones">
+                        <button class="rosado" onclick="reproducirVideo()"> <img src="../images/forward.svg" alt="Boton Play"> </button>
+                        <div class="progreso"></div>
+                    </div>
+                </div>
+                <div class="botones" id="botones">
+                    <button class="camara rosado" onclick="capturar()"><img src=" ../images/camera.svg " alt="camara "></button>
+                    <button onclick="capturar() " class="rosado ">Capturar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" subido crear check " id="subido">
+        <div class="superior ">
+            <p class="titulo "> Guifo Subido Con Éxito </p>
+            <a href="../index.html "></a>
+        </div>
+        <div class="preview ">
+            <div class="videoCon "></div>
+            <div class="botones ">
+                <h2> Guifo creado con éxito</h2>
+                <button class="blanco "> Copiar Enlace Guifo</button>
+                <button class="blanco " onclick="descargarGuifo()"> Descargar Guifo</button>
+            </div>
+        </div>
+        <div class=" botones inferior ">
+            <button class="rosado" onclick="cancelar()"> Listo</button>
+        </div>
+    </div>
+
+    <div id="guifos">
+        <div class="barra ">
+            <p class="titulo "> Mis guifos</p>
+        </div>
+        <div id="misGuifos"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js"></script>
+    <script src="../js/pageCrear.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,478 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Chakra Petch';
+}
+
+header {
+    background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+    background-image: -o-linear-gradient(right, #EE3EFE 0%, #2E32FB 100%);
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    -webkit-box-shadow: 0 1px 0 0 #110038;
+    box-shadow: 0 1px 0 0 #110038;
+}
+
+header p {
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+body {
+    background-color: rgb(17, 0, 56);
+}
+
+.inicio {
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.inicio .logo {
+    content: url("../images/gifOF_logo_dark.png");
+}
+
+.inicio .flecha {
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: rgb(17, 0, 56);
+    cursor: pointer;
+}
+
+.inicio .flecha img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.barra {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.barra .titulo {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    color: #110038;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    height: 32px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.crear {
+    margin-top: 3%;
+    margin-left: 24%;
+    margin-right: 24%;
+    padding-top: 0.2em;
+    background: #B4B4B4;
+    -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.crear .titulo {
+    display: block;
+    height: 24px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+    background-image: -o-linear-gradient(right, #EE3EFE 0%, #2E32FB 100%);
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    font-size: 14px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    width: 98.5%;
+}
+
+.crear .principal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5%;
+}
+
+.crear .principal .lventana {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.crear .principal .texto h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.crear .principal .texto p {
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.crear .principal .texto span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.crear .botones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: flex-end;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.crear .botones button {
+    height: 36px;
+    width: 144px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.crear .botones .blanco {
+    background: #110038;
+    border: 1px solid #B4B4B4;
+    -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.crear .botones .blanco:hover {
+    background: #110038;
+    border: 1px solid #B4B4B4;
+    -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    outline: 1px solid #FFFFFF;
+    outline-style: dotted;
+    outline-offset: -4px;
+}
+
+.crear .botones .rosado {
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.crear .botones .rosado:hover {
+    outline: 1px solid #FFFFFF;
+    outline-style: dotted;
+    outline-offset: -4px;
+}
+
+.check {
+    margin-top: 3%;
+    margin-left: 18%;
+    margin-right: 18%;
+    display: none;
+}
+
+.check .superior {
+    background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+    background-image: -o-linear-gradient(right, #EE3EFE 0%, #2E32FB 100%);
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.check .superior a {
+    content: url(../images/button3.svg);
+    margin-right: 0.5em;
+}
+
+.check .superior .titulo {
+    background-image: none;
+    width: auto;
+}
+
+.check .video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.check .videoCon {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    margin-right: 0.7em;
+    margin-left: 0.6em;
+    margin-top: 0.5em;
+    height: 25em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.check .videoCon video {
+    height: 99%;
+    margin-top: 0.15em;
+}
+
+.check .videoCon img {
+    /* width: 100%; */
+    height: 99%;
+    margin-top: 0.15em;
+}
+
+.check .video .inferior {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.check .video .tiempo {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    width: 124px;
+    height: 36px;
+    margin-left: 1em;
+    visibility: hidden;
+}
+
+.check .video .botones {
+    padding: 0%;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+.check .video .botones .camara {
+    width: 2.5em;
+    margin-right: -0.1em;
+}
+
+.check .video .botones .camara img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.check .vista {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.check .reproduccion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 1em;
+    visibility: hidden;
+}
+
+.check .reproduccion button {
+    width: 20px;
+    height: 20px;
+}
+
+.check .progreso {
+    background: #B4B4B4;
+    -webkit-box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    width: 17em;
+    height: 24px;
+}
+
+.check .captura {
+    background: #FF6161;
+    border: 1px solid #110038;
+    -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+
+.check .subiendo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.check .subiendo img {
+    margin-top: -2em;
+}
+
+.check .subiendo h2 {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+
+.check .subiendo div {
+    background: #B4B4B4;
+    -webkit-box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+    height: 24px;
+    width: 25em;
+    margin-top: 3em;
+}
+
+.check .subiendo img {
+    height: auto;
+}
+
+.check .subiendo p {
+    font-size: 12px;
+    color: rgba(17, 0, 56, 0.64);
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    margin-top: 1em;
+}
+
+.check .subiendo span {
+    text-decoration: line-through;
+}
+
+.subido {
+    margin-top: 3%;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+.subido .preview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.subido .videoCon {
+    width: 20em;
+    height: 10em;
+}
+
+.subido .videoCon img {
+    height: 97%;
+    width: 98%;
+    margin-top: 0.1em;
+}
+
+.subido .preview .botones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.subido .preview h2 {
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.subido .preview button {
+    margin-top: 1em;
+    width: 16em;
+}
+
+.subido .inferior {
+    margin-top: 3em;
+}
+
+.gifs {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
